@@ -95,3 +95,25 @@ a:hover {
 .blank {
     width: 50px;
 }
+
+#triangle-down {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+	width: 350px;
+	height: 0;
+	border-right: 100px solid transparent;
+    border-top: 125px solid hsl(210, 100%, 10%);
+    z-index: 2;
+    
+}
+
+.logo {
+    font-weight: 800;
+    font-family: Amita monospace;
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
+}
